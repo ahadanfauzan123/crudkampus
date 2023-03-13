@@ -1,0 +1,70 @@
+.hidden {
+    display: none;
+}
+.btn-blue {
+    background: rgb(84, 84, 204);
+}
+.btn-red {
+    background: rgb(212, 90, 86);
+}
+.btn-yellow {
+    background: rgb(198, 216, 38);
+}
+body {
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: rgb(221, 34, 34);
+}
+.navbar{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 80px;
+    color: white;
+    background-color: rgb(232, 228, 235);
+    box-shadow: 1px 0px 9px rgb(207, 137, 137);
+}
+.navbar>.title {
+    flex: 0.4;
+}
+img {
+    width: 150px;
+}
+.button {
+    padding: 10px 20px;
+    margin-left: 5px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    text-decoration: none;
+}
+.table-wrapper {
+    width: 80vw;
+    margin: 50px auto;
+    box-shadow: 1px 1px 15px rgb(255, 154, 154);
+    border-radius: 30px;
+    padding: 40px 10px;
+}
+.card{
+    width: 90%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: purple;
+}
+.card>.image {
+    position: absolute;
+    left: 0;
+    top: 0;
+    background-color: red;
+    border-radius: 20px;
+    height: 100%;
+    width: 170px;
+}

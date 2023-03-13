@@ -1,0 +1,138 @@
+body {
+    width: 100vw;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(253, 138, 138);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+body::-webkit-scrollbar{
+    display: none;
+}
+.bg-blue {
+    background-color: rgb(117, 117, 236);
+}
+a {
+    text-decoration: none;
+}
+.box-blue {
+    box-shadow: 1px 0px 6px rgb(142, 142, 241);
+}
+.gender>.box-blue {
+    box-shadow: 1px 0px 6px rgb(142, 142, 241);
+}
+input, .gender>div, textarea,select {
+    outline: none;
+    border: none;
+    box-shadow: 1px 0px 6px rgb(241, 71, 71);
+    border-radius: 12px;
+    padding: 0 4px;
+}
+#lakiLaki, #perempuan {
+    box-shadow: none;
+}
+.wrapper {
+    margin: 0 auto;
+    width: 55%;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: white;
+}
+form {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.id-name {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+.id-name>input {
+    width: 40%;
+    height: 40px;
+}
+.alamat,.nohp,.prodi,.foto {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+textarea{
+    flex: 0.959;
+    height: 100px;
+}
+.nohp>input {
+    flex: 0.95;
+    height: 40px;
+}
+.ttd-gender {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+}
+.ttd-gender>.date{
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.ttd-gender>.date>#ttd {
+    width: 79%;
+    height: 40px;
+}
+.ttd-gender>.gender {
+    width: 50%;
+    display: flex;
+    justify-content: right;
+}
+.ttd-gender>.gender>div {
+    width: 40%;
+    background-color: white;
+    padding: 0 5px;
+    border-radius: 12px;
+    height: 40px;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    margin-left: 12px;
+}
+select {
+    flex: 0.95;
+    height: 40px;
+}
+.foto>div {
+    flex: 0.95;
+    width: 40px;
+
+}
+.submit {
+    width: 100%;
+    display: flex;
+    justify-content: right;
+}
+button {
+    width: 15%;
+    background-color: rgb(241, 81, 81);
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+    border: none;
+    outline: 2px white;
+    cursor: pointer;
+    margin-left: 10px;
+}
+button>a {
+    color: white;
+}
+#submit { 
+    background-color: rgb(101, 101, 243);
+}
